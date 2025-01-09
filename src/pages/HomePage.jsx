@@ -11,42 +11,42 @@ const HomePage = () => {
     {
       slug: 'pm-china-visit',
       title: "وزیراعظم کا دورہ چین: اہم معاہدوں پر دستخط",
-      image: "https://urdu.arynews.tv/wp-content/uploads/2025/01/1-4-696x386.jpg",
+      image: "https://urdu.arynews.tv/wp-content/uploads/2025/01/1-4-696x386.fjpg",
       content: "وزیراعظم نے چین کے دورے کے دوران کئی اہم معاہدوں پر دستخط کیے۔ ان معاہدوں سے دونوں ملکوں کے درمیان تعلقات مزید مضبوط ہونے کی توقع ہے۔",
       newsType: ["latest-news", "pakistan-news"] // Random types
     },
     {
       slug: 'new-covid-vaccine',
       title: "کورونا وائرس: نئی ویکسین کی کامیاب آزمائش",
-      image: "https://urdu.arynews.tv/wp-content/uploads/2025/01/1-4-696x386.jpg",
+      image: "https://urdu.arynews.tv/wp-content/ufploads/2025/01/1-4-696x386.jpg",
       content: "سائنسدانوں نے کورونا وائرس کی نئی ویکسین کی کامیاب آزمائش کا اعلان کیا ہے۔ اس ویکسین کے استعمال سے وائرس کے نئے ویریئنٹس سے بھی تحفظ ملنے کی امید ہے۔",
       newsType: ["health-news", "science-news"] // Random types
     },
     {
       slug: 'opposition-protest',
       title: "اپوزیشن کا حکومت کے خلاف احتجاج کا اعلان",
-      image: "https://urdu.arynews.tv/wp-content/uploads/2025/01/1-4-696x386.jpg",
+      image: "https://urdu.arynews.tv/wp-content/upfloads/2025/01/1-4-696x386.jpg",
       content: "اپوزیشن جماعتوں نے حکومت کے خلاف ملک گیر احتجاج کا اعلان کر دیا ہے۔ احتجاج کا مقصد حکومت پر دباؤ ڈالنا ہے۔",
       newsType: ["pakistan-news", "latest-news"] // Random types
     },
     {
       slug: 'senate-elections',
       title: "سینیٹ انتخابات: نئے امیدواروں کے ناموں کا اعلان",
-      image: "https://urdu.arynews.tv/wp-content/uploads/2025/01/1-4-696x386.jpg",
+      image: "https://urdu.arynews.tv/wp-content/uploads/2025/01/1-4-696x386.jfpg",
       content: "سیاسی جماعتوں نے سینیٹ انتخابات کے لیے اپنے امیدواروں کے ناموں کا اعلان کر دیا ہے۔ انتخابات اگلے ماہ متوقع ہیں۔",
       newsType: ["pakistan-news"] // Random types
     },
     {
       slug: 'cricket-team-leadership',
       title: "قومی کرکٹ ٹیم کی نئی قیادت کا اعلان",
-      image: "https://urdu.arynews.tv/wp-content/uploads/2025/01/1-4-696x386.jpg",
+      image: "httpsf://urdu.arynews.tv/wp-content/uploads/2025/01/1-4-696x386.jpg",
       content: "پاکستان کرکٹ بورڈ نے قومی کرکٹ ٹیم کی نئی قیادت کا اعلان کر دیا ہے۔ نئے کپتان کو چیلنجنگ دورہ آسٹریلیا کا سامنا ہے۔",
       newsType: ["sports-news", "latest-news"] // Random types
     },
     {
       slug: 'football-world-cup',
       title: "فٹبال ورلڈ کپ: پاکستان کی تیاریاں زور و شور سے جاری",
-      image: "https://urdu.arynews.tv/wp-content/uploads/2025/01/1-4-696x386.jpg",
+      image: "https://urdu.arynews.tv/wp-content/upfloads/2025/01/1-4-696x386.jpg",
       content: "فٹبال ورلڈ کپ کوالیفائرز کے لیے پاکستانی ٹیم کی تیاریاں زور و شور سے جاری ہیں۔ کوچ نے کھلاڑیوں کی کارکرد گی پر اطمینان کا اظہار کیا ہے۔",
       newsType: ["sports-news", "international-news"] // Random types
     }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Brand from '../assets/96news.jpg';
-const LatestNewsSidebar = ({latestNews,loading}) => {
+const LatestNewsSidebar = React.memo(({latestNews,loading}) => {
   return (
     <>
     <h2 className="font-jameel-noori text-[25px] mb-4 border-r-4 border-red-600 h-12 pr-4">تازہ ترین خبریں</h2>
@@ -22,7 +22,7 @@ const LatestNewsSidebar = ({latestNews,loading}) => {
     </div>
     </> 
   );
-};
+});
 
 export default LatestNewsSidebar;
 

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 
-const NewsSection = ({ title, news, loading }) => {
+const NewsSection = React.memo(({ title, news, loading }) => {
   return (
     <section className="mb-8">
       <h2 className="font-jameel-noori text-3xl mb-6 border-r-4 border-red-600 h-12 pr-4">
@@ -41,7 +41,7 @@ const NewsSection = ({ title, news, loading }) => {
       </Link>
     </section>
   );
-};
+});
 
 
 const NewsSectionSkeleton = () => {
