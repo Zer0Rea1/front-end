@@ -4,7 +4,8 @@ import Header from './components/Header';
 import HomePage from './pages/HomePage';
 import PostPage from './pages/PostPage';
 import './App.css';
-import SportsNewsPage from './pages/SportsNewsPage';
+import NewsPages from './pages/NewsPages';
+import SearchPage from './pages/SearchPage'
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/post/:slug" element={<PostPage />} />
-          <Route path="/sports" element={<SportsNewsPage />} />
+          <Route path="/news/:slug" element={<NewsPages />} />
+          <Route path="/search" element={<SearchPage />} />
+          
         </Routes>
       </div>
     </Router>

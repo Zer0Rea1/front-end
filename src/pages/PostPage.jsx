@@ -20,6 +20,7 @@ const posts = [
 
 const PostPage = () => {
   const { slug } = useParams();
+
   const post = posts.find((p) => p.slug === slug);
 
   if (!post) {
@@ -42,8 +43,29 @@ const PostPage = () => {
       <div className="md:col-span-1">
           <LatestNewsSidebar latestNews={posts}  />
       </div>
+      <HtmlComponent/>
     </div>
   );
 };
+
+
+
+
+const HtmlComponent = () => {
+  return (
+    <>
+      <div className="bg-white p-6 md:col-span-2 rounded-lg">
+          <div className="w-full h-64 bg-gray-200 rounded-lg animate-pulse"></div>
+          <div className="mt-6 mb-6">
+              <div className="h-8 bg-gray-200 rounded animate-pulse"></div>
+          </div>
+          <div className="h-24 bg-gray-200 rounded animate-pulse"></div>
+      </div>
+    </>
+  );
+};
+
+
+
 
 export default PostPage;
